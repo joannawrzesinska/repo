@@ -1,0 +1,22 @@
+{
+  "name": "CV_Joanna_Wrzesinska",
+  "version": "0.0.0",
+  "authors": [
+    "joannawrzesinska"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery.localScroll": "1.3.5",
+    "jquery": "~2.1.4",
+    "parallax": "~2.1.3",
+    "skrollr": "~0.6.30"
+  }
+}

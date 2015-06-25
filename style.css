@@ -1,0 +1,300 @@
+*{
+	margin: 0 0 0 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+a:hover{
+	 	text-decoration: none;
+}
+header{
+}
+#menu{
+	list-style-type: none;
+}
+#shape{
+	width: 20%;
+	height: 40%;
+	opacity: 0.7;
+	margin-left: 40%;
+	margin-top: 500px;
+}
+#container{
+height: 100%;
+width: 17%;
+position: fixed;
+margin-left: 1%;
+z-index: 10;
+}
+#left-nav{
+	 width:15%;
+	 position: fixed;
+	 height: 60%;
+
+}
+#left-sidebar{
+	 width: 15%;
+	 position: fixed;
+	 text-align: center;
+	 margin-left: -2%;
+	 
+}
+#left-sidebar ul{
+ margin-bottom: 2px;
+ display: block;
+}
+#left-sidebar ul li{
+	background-color: white;
+	text-transform: uppercase;
+	border-bottom: 2px solid #00CCCC;
+	border-radius: 200px;
+}
+#left-sidebar ul li:hover{
+	background-color: #ECECEC;
+	 	text-decoration: none;
+
+
+}
+#left-sidebar ul li:hover a{
+ 	text-decoration: none;
+ 	}
+body{
+	background: #000;
+}
+section{
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	width:100%;
+	height: 100%;
+	z-index: 1;
+}
+#start{background-image: url(images/img2.jpeg);}
+#about{background: linear-gradient(#FFFFFF, #ECECEC);}
+#myskills{background: linear-gradient(#FFFFFF, #ECECEC)}
+#experience{background:linear-gradient(#FFFFFF, #ECECEC);}
+#education{background:linear-gradient(#FFFFFF, #ECECEC);}
+#portfolio{background: linear-gradient(#FFFFFF, #ECECEC);}
+#contact{background: linear-gradient(#FFFFFF, #ECECEC);}
+
+#start .content{
+ 	color:#fff;
+ 	text-align:center;
+ 	font-size:400%;
+ 	font-weight: bold;
+ 	text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+ }
+ .content{
+ 	position: fixed;
+ 	width:100%;
+ 	height: 100%
+ }
+.logo{
+	width: 100%; 
+	height:70%;
+	margin-top:5px;
+}
+.info{
+	height: 100%;
+	width: 70%;
+	background-color: white;
+	margin-left: 25%;
+	padding-left: 1%;
+	padding-right: 1%;
+	opacity: 0.7;
+
+}
+.info h1{
+	padding-top: 10px;
+	color: #00CCCC;
+	border-bottom: solid 1px #00CCCC;
+	padding-bottom: 10px;
+}
+h3{
+margin-bottom: 5px;
+}
+h4{
+
+}
+h4 p{
+	border-bottom: 1px solid #00CCCC;
+	padding-bottom: 5px;
+	width: 400px;
+}
+#myskills #info{
+	height: 600px;
+	width: 70%;
+	margin-left: 25%;
+	padding-left: 1%;
+	padding-right: 1%;
+	opacity: 0.7;
+
+}
+.info_graph{
+	width:40%;
+	height:200px;
+	float:left;
+	margin-left: 5%;
+}
+.info_graph h1{
+position: absolute;
+margin-left: 4%;
+margin-top: 4%;
+}
+.info_graph h4{
+	float:left;
+	margin-top: 11%;
+	margin-left: 1%;
+	text-align: center;
+
+}
+.graph_img{
+	float: left;
+}
+.skills_points{
+	clear: both;
+}
+#education #info,
+#experience #info{
+	height: 600px;
+	width: 70%;
+	margin-left: 25%;
+	padding-left: 1%;
+	padding-right: 1%;
+	opacity: 0.7;
+	
+}
+.info_experience{
+	margin-top: 20px;
+}
+.logo_company{
+	float: left;
+	width: 20%;
+	height: 150px;
+	margin-left: 2%;
+	
+}
+.logo_company_img{
+	width: 70%;
+	height: 120px;
+
+}
+.experience_2{
+	height: 150px;
+	width: 100%;
+	clear: both;
+}
+.info_education{
+	padding-top: 20px;
+}
+.info_education p{
+	font-weight: bold;
+}
+.education_2{
+	height: 150px;
+	width: 100%;
+	clear: both;
+}
+
+#Message{
+	width: 90%;
+	height: 200px;
+}
+.btn{
+	margin-left: 50%;
+	margin-top: 5px;
+}
+form{
+ font-size: 1.3em;
+}
+label{
+	width:50%;
+}
+#text_after_form{ 
+	display:none;
+}
+
+/*smartphone*/
+@media (max-width: 599px) {
+	#shape{
+	width: 40%;
+	height: 20%;
+	opacity: 0.7;
+	margin-left: 30%;
+	margin-top: 500px;
+}
+.logo{
+	visibility: hidden;
+}
+#left-nav{
+	 width:100%;
+	 position: fixed;
+	 height: 60%;
+
+}
+#left-sidebar{
+	 width: 60px;
+	 height: 50px;
+	 position: fixed;
+	 text-align: center;
+	 margin-left: -10%;
+	 margin-top: -65%;
+	 
+}
+#left-sidebar ul{
+ margin-bottom: 2px;
+ display: block;
+}
+#left-sidebar ul li{
+	background-color: white;
+	text-transform: uppercase;
+	border-bottom: 2px solid #00CCCC;
+	border-radius: 200px;
+	float: left;
+}
+#left-sidebar ul li a {
+	visibility: hidden;
+}
+.info{
+	height: 100%;
+	width: 90%;
+	background-color: white;
+	margin-left: 7%;
+	padding-left: 1%;
+	padding-right: 1%;
+	opacity: 0.7;
+	}
+#start{background-image: url(images/img2-kopia.jpeg);}
+#about{background-color:#FFFFFF}
+#myskills{background-color:#FFFFFF}
+#experience{background-color:#FFFFFF}
+#education{background-color:#FFFFFF}
+#portfolio{background-color:#FFFFFF}
+#contact{background-color: #FFFFFF}  
+
+.info_graph h1{
+position: absolute;
+margin-left: 12%;
+margin-top: 10%;
+}
+.logo_company_img{
+	width: 80%;
+	height: 40%;
+}
+.info_education{
+	padding-top: 0.5%;
+}
+form{
+ font-size: 1em;
+
+}
+.send{
+	margin-left:40%;
+	margin-top: 1%;
+}
+}
+/*tablet*/
+@media (max-width:734px;){
+form{
+ font-size: 1em;
+}
